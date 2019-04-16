@@ -1,34 +1,33 @@
 # halalchecker(ハラールチェッカー)
-====
-This is halalchecker(HC) for visitor Muslim.
-訪日ムスリムへ向けたapp,ハラールチェッカー
-Overview
+====  
+This is halalchecker(HC) for visitor Muslim.  
+訪日ムスリムへ向けたapp,ハラールチェッカー  
+#Overview
 
 ## Description(説明)
-You can check whether the product includes Haram or not from food label in Japanese.
+You can check whether the product includes Haram or not from food label in Japanese.  
 日本語の食品ラベルから商品にハラームなもの(主に酒成分や豚成分)が含まれているかどうかを判断します.
 ## Demo
 
 ## Requirement(用意するもの)
-Python, Flask or Django
-Computer Vision Api
-(↑ now 2019/4/16)
+Python, Flask or Django  
+Computer Vision Api  
+(↑ now 2019/4/16)  
 
 ## Usage(使い方)
-coming soon.
+coming soon.  
 ## Install(ライブラリなど)
-coming soon.
+coming soon.  
 ## Licence
-Made by Masayoshi Tsuruoka
-Keio University, Japan.
-I'm Nonaka Lab member.
-Nonaka Lab Keio SFC(Shounan Fujisawa Campus)
-My mentor:Yo Nonaka
-[about her](https://vu.sfc.keio.ac.jp/faculty_profile/cgi/f_profile.cgi?id=8f3e9553ebb877c5)
-[AboutMe](https://github.com/DQNEO/memo/blob/master/AboutMe.md)
+Made by Masayoshi Tsuruoka  
+Keio University, Japan.  
+I'm Nonaka Lab member.  
+Nonaka Lab Keio SFC(Shounan Fujisawa Campus)  
+My mentor:Yo Nonaka  
+[about her](https://vu.sfc.keio.ac.jp/faculty_profile/cgi/f_profile.cgi?id=8f3e9553ebb877c5)  
 
 ## Author
-Masayoshi Tsuruoka
-[myhomepage](https://www.ht.sfc.keio.ac.jp/~massaman/)
-(This page has a form for send email to me.)
-[github](https://github.com/Masayo4)
+Masayoshi Tsuruoka  
+[myhomepage](https://www.ht.sfc.keio.ac.jp/~massaman/)  
+(This page has a form for send email to me.)  
+[github](https://github.com/Masayo4)  
