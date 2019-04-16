@@ -2,7 +2,6 @@
 ====  
 This is halalchecker(HC) for visitor Muslim.  
 訪日ムスリムへ向けたapp,ハラールチェッカー  
-#Overview
 
 ## Description(説明)
 You can check whether the product includes Haram or not from food label in Japanese.  
