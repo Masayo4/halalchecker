@@ -14,18 +14,25 @@ Computer Vision Api
 (↑ now 2019/4/16)  
 
 ## Usage(使い方)
-1. python main.py <img path>
+python main.py <img path>
+
 ex) python main.py ../pic/testlabel.jpg
 
 (上記 20190424 now)
 
 ## Install(ライブラリなど)
 pip install base64
+
 pip install json
+
 pip install requests
+
 pip install beautifulsoup4
+
 pip install regex
+
 pip install sys
+
 (上記 20190424 now)
 ## Licence
 Made by Masayoshi Tsuruoka  
