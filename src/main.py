@@ -2,12 +2,8 @@ import base64
 import json
 from requests import Request,Session
 from bs4 import BeautifulSoup
-
-
+import regex
 import sys
-
-import ssss
-
 
 def recognize_captcha(str_image_path):
         bin_captcha = open(str_image_path, 'rb').read()
