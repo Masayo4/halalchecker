@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>HalalChecker</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="header">
+    <div id="logo">
+      <img src="/static/img/halalchecker_logo.png">
+    </div>
+    <div id="title">
+      <h1>Halal Checker</h1>
+    </div>
+    <div id="link">
+      <div class="sns_icon" id="home">
+        <a href="https://nonakalab.sfc.keio.ac.jp/homepage/index.html"><img src="/static/img/home.png"></a>
+      </div>
+      <div class="sns_icon" id="instagram">
+        <a href="https://www.instagram.com/nonakalabproject/"><img src="/static/img/instagram.png"></a>
+      </div>
+      <div class="sns_icon" id="twitter">
+        <a href="https://twitter.com/Nonaka_lab"><img src="/static/img/twitter.png"></a>
+      </div>
+    </div>
+  </div>
+  <div class="main">
+    <h2>input img</h2>
+    <div class="left">
+    <div class="capture_img">
+      <p>画像出力</p>
+    </div>
+    </div>
+    <!-- ここにキャプチャ画像-->
+    <div class="right">
+      <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/png, image/jpeg">
+        <button type="submit">check</button>
+      </form>
+    <div class="text">
+      <p>テキスト出す</p>
+      <p>(通常はdisplay:none にしておく)</p>
+    </div>
+    <!-- ここにditectしたテキストを確認できるように-->
+    <div class="pictgram">
+      <p>pict表示を出す</p>
+    </div>
+    <!-- ここにピクト表示-->
+    </div>
+    <div class="discription">
+      <h2>食品ラベルを分析し,ハラールな食品かどうかを判断する</h2>
+      <p>
+        このアプリケーションは野中葉研究会が開発しました.<br>
+        これはver.1.0であり,プロトタイプです.(ORF用)<br>
+        将来的には英語verとしてアプリケーションを公開する予定です.<br>
+      </p>
+      <h2>使い方</h2>
+      <ol>
+        <li>食品ラベルを撮影する,もしくは自分の画像フォルダーから選択する.</li>
+        <li>"check"のボタンをクリックする.</li>
+        <li>判定結果がピクトグラムと共に表示される</li>
+      </ol>
+    </div>
+
+  </div>
+  <div class="footer">
+    <div class="copyright">
+      <p>©️ Nonaka lab, SFC, Keio University, Japan.</p>
+    </div>
+  </div>
+
+</body>
+</html>
